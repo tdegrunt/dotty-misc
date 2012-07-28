@@ -1,0 +1,18 @@
+# lexically sort filenames
+--sort-files
+
+--type-add=ruby=rake,haml
+--type-add=vim=vimrc
+--type-add=js=json
+--type-set=cucumber=feature
+--type-set=css=sass
+
+# add types ack doesn't know about
+--type-set=markdown=md,mkd,markdown
+--type-set=rdoc=rdoc
+--type-set=coffee=coffee
+
+# ignore some dirs
+--ignore-dir=coverage
+--ignore-dir=doc
+--ignore-dir=node_modules
